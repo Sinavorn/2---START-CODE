@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 80px 80px 400px auto 250px;
+    
+  }
+  nav{
+    background-color: black;
+    grid-row-start: 20px;
+    grid-row: 1/5;
+      
+  }
+  menu {
+    background-color: blue;
+    grid-column: 2/7;
+    height: 80px;
+  }
+  section{
+    background-color: aliceblue;
+    grid-column: 2/4;
+    color: black;
+    grid-row: 2/5;
+    margin-top: -110px;
+    
+  }
+  main{
+    background-color: rgb(185, 199, 212);
+    grid-column: 4/6;
+    color: black;
+    grid-row: 2/5;
+    margin-top: -113px;
+  }
+ aside{
+  background-color: rgb(127, 182, 233);
+    grid-column: 6/6;
+    color: black;
+    grid-row: 2/5;
+    margin-top: -113px;
+
+ }
